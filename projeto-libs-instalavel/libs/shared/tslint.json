@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "projetoLibsInstalavel",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "projeto-libs-instalavel",
+      "kebab-case"
+    ]
+  }
+}

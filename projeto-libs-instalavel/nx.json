@@ -1,0 +1,27 @@
+{
+  "npmScope": "projeto-libs-instalavel",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "shell-e2e": {
+      "tags": []
+    },
+    "shell": {
+      "tags": []
+    },
+    "feature-two": {
+      "tags": []
+    },
+    "shared": {
+      "tags": []
+    },
+    "feature-one": {
+      "tags": []
+    }
+  }
+}
