@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UserService } from '@project-apps/shared';
 
 @Component({
   selector: 'project-apps-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shell';
+  user: any;
+
+  constructor(
+    private userService: UserService,
+  ) {
+    this.userService.set('test');
+    this.user = this.userService.get();
+  }
+
 }
